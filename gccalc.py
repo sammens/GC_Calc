@@ -12,3 +12,7 @@ def calc_gc_content(seq):
         return 0.0
     gc_content = ((seq.count("C") + seq.count("G"))/len(seq)) * 100
     return gc_content
+
+def show_length(seq):
+    length = len(seq)
+    return length
